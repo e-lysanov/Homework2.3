@@ -27,11 +27,6 @@ public class CalculatorService {
 
     public String divide(int num1, int num2) {
         int divideResult = num1 / num2;
-        if (num2 == 0) {
-//            разобраться схуяли не работает
-            return "<b>На ноль делить нельзя!</b>";
-        } else {
-            return num1 + " / " + num2 + " = " + divideResult;
-        }
+        return num1 + " / " + num2 + " = " + divideResult;
     }
 }
